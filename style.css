@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+#section-header{
+    background-image: url(https://www.engage.veented.com/business/wp-content/uploads/sites/114/2017/08/business-main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 767px;
+}
+
+#over-back{
+    background-color: rgba(0, 182, 232, 0.107);
+    width: 100%;
+    height: 100%;
+}
+
+#over-back nav{
+    padding: 5px 60px 5px 60px;
+    display: flex;
+    align-items: center;
+}
+
+#over-back nav #logo-header img{
+    width: 90px;
+    height: 90px;
+    margin-right: 800px;
+}
+
+#over-back nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+#over-back nav ul li a {
+    text-decoration: none;
+    margin-right: 40px;
+    color: rgb(255, 255, 255);
+}
+hr{
+    color: rgba(240, 248, 255, 0.127);
+}
+
+
+
+#section-info-header{
+    display: flex;
+    height: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#section-info-header{
+    text-align: center;
+}
+
+#section-info-header h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#section-info-header p {
+    color: white;
+    font-size: 18px;
+
+}
+
+#tow-button-main{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.tow-button button{
+    height: 50px;
+    width: 120px;
+    border: 0px;
+    background-color:white;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all .6s;
+
+}
+
+#one-button button{
+    background-color:#4374b7;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#one-button button:hover{
+    background-color:#ffffff;
+    color: #000000;
+}
+
+
+
+/* section tow */
+
+#section-info{
+    height:300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+#section-info p{
+    color: #888897;
+}
+
+.single-info{
+    display: flex;
+    width: 30%;
+}
+.icon i {
+    margin: 10px;
+}
+
+/* section three */
+
+.section-three{
+    width:100%;
+    margin-top: 70px;
+    background-color: #f8f8f9;
+    padding: 100px;
+    display:flex;
+}
+#info-sec-three h3{
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.img-sec-three img{
+    height: 550px;
+    width: 600px;
+    padding-left: 50px;
+}
+
+#p-sec-three{
+    margin-bottom: 25px;
+}
+
+#info-sec-three{
+    padding: 70px 50px 0px 70px;
+}
+
+.icon-three{
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+}
+.icon-three p{
+    margin-left: 7px;
+    color:#888897 ;
+}
+
+#sp-button button{
+    margin-top: 35px;
+    height: 50px;
+    width: 120px;
+    border: 0px;
+    background-color:#4374b7;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+
+/* section four */
+
+#our-services{
+   text-align: center;
+}
+#our-services i{
+    font-size: 55px;
+}
+#services i{
+    font-size: 30px;
+    margin: 10px 10px 10px 10px;
+    color: white;
+}
+#back-icon-serv{
+    background-color: #4374b7;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin: 50px 0px 20px 120px;
+}
+
+#all-services{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding:  10px 80px 50px 70px;
+    justify-content: space-around;
+}
+#services {
+    width: 300px;
+    text-align: center;
+}
+
+#services p {
+    margin-top: 10px;
+    color: #888897;
+}
+
+#section-five{
+    background-image: url(https://www.engage.veented.com/business/wp-content/uploads/sites/114/2017/08/business-main.jpg);
+}
+
+#back-img-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-color: #4373b7ce;
+    color: white;
+
+    
+}
+#back-img-5 i {
+    font-size: 45px;  
+}
+#back-img-5 h4 {
+    margin: 0px 25px 15px 25px;  
+}
+#back-img-5 p {
+    color: #d1d1d1;
+}
+#back-img-5 h3{
+    margin: 70px;  
+    font-size: 25px;
+    line-height: 24px;
+
+}
+#back-img-5 h3::after{
+    content: close-quote
+}
+#back-img-5 h3::before{
+    content: open-quote
+}
+
+
+#company{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 150px 100px 150px;
+}
+
+#company img{
+    width: 150px;
+    height: 80px;
+}
+
+#section-six{
+    background-color:#f8f8f9;
+    width: 100%;
+    height: 450px;
+    padding-top: 150px;
+    text-align: center;
+}
+
+#section-six p{
+    margin: 35px;
+    color: #888897;
+    font-size: 18px;
+
+}
+
+#sp2-button button{
+    height: 65px;
+    width: 160px;
+    border: 0px;
+    background-color:#4374b7;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+#sp2-button button:hover{
+    background-color:#333333;
+    color: white;
+}
+/* section footer */
+footer{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-items: center;
+    background-color: #162231;
+    color: #58606b;
+    
+}
+.cont-icon{
+    display: flex;
+    align-items: center;
+}
+.section-footer{
+    width: 350px;
+
+}
+footer h3{
+    color: white;
+    margin-bottom: 30px;
+}
+footer a{
+    color: #58606b;
+    text-decoration: none;
+
+}
+footer li{
+   list-style-type: none;
+
+}
+footer ul{
+    padding-left: 0px;
+
+}
+#section2{
+    width: 170px;
+}
+#page-footer{
+    width: 90px;
+}
+
+#info-footer{
+    width: 300px;
+}
+
+/* section copy */
+
+#copy{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 55px;
+    background-color: #131e2c;
+    color: #949494;
+}
+
+#copy #icon-copy{
+    display: flex;
+    
+}
+#copy #icon-copy i{
+    margin: 5px;
+    font-size: 27px;
+    transition: all .6s;
+}
+
+#text-copy{
+    width: 950px;
+}
+
+#copy #icon-copy i:hover{  
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+}
